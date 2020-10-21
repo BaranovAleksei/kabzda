@@ -5,7 +5,7 @@ import {Accordion} from './components/Accordion/Accordion';
 import { Rating, RatingValueType } from './components/Rating/Rating';
 import { OnOff } from './components/OnOff/OnOff';
 import { UncontrolledOnOff } from './components/OnOff/UncontrolledOnOff'
-import UncontrolledAccordion from "./components/Accordion/UncontrolledAccordion";
+import {UncontrolledAccordion} from "./components/Accordion/UncontrolledAccordion";
 import { UncontrolledRating } from "./components/Rating/UncontrolledRating";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <Rating value={ ratingValue }
                 onClick={ setRatingvalue }/>
         <hr/>
-        <UncontrolledOnOff/>
+        <UncontrolledOnOff />
         <hr/>
         <OnOff on={switchOn}
                onChange={ () => { setSwitchOn(!switchOn) } } />

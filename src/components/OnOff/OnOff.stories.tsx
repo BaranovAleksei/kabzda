@@ -7,7 +7,7 @@ import {action} from "@storybook/addon-actions";
 
 export default {
   title: 'OnOff button',
-  component: OnOff,
+  component: OnOff
 };
 
 const callback = action('on or off clicked')

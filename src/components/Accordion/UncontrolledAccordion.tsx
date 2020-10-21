@@ -15,7 +15,7 @@ type AccordionTitlePropsType = {
   onClick: () => void
 };
 
-function UncontrolledAccordion(props: AccordionPropsType) {
+export function UncontrolledAccordion(props: AccordionPropsType) {
 
   let [collapsed, setCollapsed] = useState(false);
 
@@ -41,5 +41,3 @@ function AccordionBody( ) {
     <li> меню 5</li>
   </ul>);
 };
-
-export default UncontrolledAccordion;
